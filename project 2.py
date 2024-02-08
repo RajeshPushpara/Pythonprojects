@@ -1,0 +1,15 @@
+# Get the student name and marks, print the total of marks
+Studentname=input(("Enter the student's name"))
+Standard=int(input("ENTER THE CLASS OF THE STUDENT"))
+Numberofsubjects=int(input("Number of subjects"))
+English=int(input("Enter your marks in english"))
+Tamil=int(input("Enter your marks in tamil"))
+Science=int(input("Enter your marks in science"))
+Social=int(input("Enter your marks in social"))
+Maths=int(input("Enter your marks in maths"))
+totalmarks=English+Tamil+Science+Social+Maths
+print(totalmarks)
+average=(totalmarks/Numberofsubjects)
+average=round(average,4)
+print(average)
+print(f"The average of {Studentname} is {average}")
